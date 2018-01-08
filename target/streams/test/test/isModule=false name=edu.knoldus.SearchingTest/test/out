@@ -1,0 +1,17 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSearchingTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Binary Search when element exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Binary Search when element not exist *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ArrayIndexOutOfBoundsException: 9[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.knoldus.Searching.mybinarySearch(Searching.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.knoldus.Searching.mybinarySearch(Searching.scala:34)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.knoldus.Searching.mybinarySearch(Searching.scala:34)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.knoldus.Searching.mybinarySearch(Searching.scala:34)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.knoldus.Searching.binarySearch(Searching.scala:6)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.knoldus.SearchingTest.$anonfun$new$2(SearchingTest.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.java:12)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Linear Search when element exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Linear Search when element not exist[0m[0m
