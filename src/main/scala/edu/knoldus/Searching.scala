@@ -3,7 +3,7 @@ package edu.knoldus
 class Searching {
 
   def binarySearch(array: Array[Int], elem: Int): Int = {
-    mybinarySearch(array, elem, 0, array.length)
+     mybinarySearch(array,elem,0,array.length-1)
 
   }
 
