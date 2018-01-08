@@ -2,24 +2,25 @@ package edu.knoldus
 
 class Searching {
 
-  def binarySearch(array: Array[Int], elem: Int): Boolean = {
+  def binarySearch(array: Array[Int], elem: Int): Int = {
     mybinarySearch(array, elem, 0, array.length)
 
   }
 
   def linearSearch(array: Array[Int], elem: Int): Boolean = {
-    mylinearSearch(array, elem)
 
-
-  }
-
-  def mylinearSearch(Domain: Array[Int], toFind: Int): Int = {
-    for (counter <- Domain) {
-      if (counter == toFind)
-        return Domain.indexOf(counter)
+    for (counter <- array) {
+      if (counter == elem)
+        return true
     }
-    return -1
+    return false
+
   }
+
+//  def mylinearSearch(Domain: Array[Int], toFind: Int): Boolean= {
+//
+//
+//  }
 
   def mybinarySearch(domain: Array[Int], toFind: Int, from: Int, till: Int): Int = {
     val left: Int = from

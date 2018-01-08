@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/Downloads/assignment-scala01-1/src/test/scala/edu/knoldus/SearchingTest.scala:17:46: value !=- is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(searching.binarySearch(array, 17) !=-1)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
